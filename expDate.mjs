@@ -1,6 +1,4 @@
-
-
-
+// Function for current time and date for timezone PST
 
 export function formatDatePST(time) {
     const options = {
@@ -11,7 +9,7 @@ export function formatDatePST(time) {
         hour: 'numeric',
         minute: 'numeric',
         second: 'numeric',
-        timeZone: 'America/Los_Angeles' // PST timezone
+        timeZone: 'America/Los_Angeles' 
     };
     return time.toLocaleString('en-US', options);
 }

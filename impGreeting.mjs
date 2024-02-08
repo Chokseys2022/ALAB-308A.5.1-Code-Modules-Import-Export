@@ -5,6 +5,8 @@ console.log(sayHello("Alice"));
 console.log(sayGoodbye("Bob"));
 console.log(formatDatePST(new Date()));
 
+
+//Code with getting user input for the name:
 // import { sayHello, sayGoodbye } from "./expGreetingES6.mjs";
 // import { formatDatePST } from "./expDateES6.mjs";
 // import readline from 'readline';
